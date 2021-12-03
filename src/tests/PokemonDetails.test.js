@@ -16,7 +16,6 @@ test('Testa se as informações do Pokémon selecionado são mostradas na tela.'
   expect(pokemonName).toBeInTheDocument();
 
   const headingEl = screen.getByRole('heading', { level: 2, name: /summary/i });
-  // const headingEl = screen.getByText(/summary/i);
   expect(headingEl).toBeInTheDocument();
 
   const description = screen.getByText(/This intelligent Pokémon/i);
