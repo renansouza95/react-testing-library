@@ -11,7 +11,7 @@ const isPokemonFavoriteById = {
   [pokemons[0].id]: false,
   [pokemons[1].id]: false,
 };
-const types = ['Electric', 'Fire', 'Bug', 'Poison', 'Psychic', 'Normal', 'Dragon'];
+// const types = ['Electric', 'Fire', 'Bug', 'Poison', 'Psychic', 'Normal', 'Dragon'];
 
 // Feito com ajuda da Samantha na monitoria
 test('Testa se a página tem um h2 com o texto Encountered pokémons', () => {
